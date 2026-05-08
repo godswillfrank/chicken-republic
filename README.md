@@ -1,4 +1,4 @@
-# 🍗 Chicken Republic Ordering System
+# 🍗 Fast Food Ordering System
 
 A Python web scraping and Flask API project that retrieves the live menu
 from Chicken Republic on getfood.ng and allows users to place orders
