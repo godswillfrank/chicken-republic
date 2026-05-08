@@ -38,7 +38,7 @@ chicken-republic/
 ## 🚀 How to Run
 
 1. Clone the repository
-git clone https://github.com/godswillfrank/chicken-republic.git
+git clone https://github.com/godswillfrank/fast-food-booking.git
 
 2. Navigate into the project folder
 cd chicken-republic
@@ -98,5 +98,5 @@ Response:
 
 ## 👨‍💻 Author
 
-Godswill
+Godswill Frank
 Final Python Project
