@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chicken Republic</title>
+</head>
+<body>
+    <h1>Welcome to Chicken Republic 🍗</h1>
+
+    <h2>Menu</h2>
+    <form action="/order" method="POST">
+        <table border="1">
+            <tr>
+                <th>Select</th>
+                <th>Item</th>
+                <th>Price</th>
+            </tr>
+            {% for number, details in menu.items() %}
+            <tr>
+                <td>
+                    <input type="checkbox" name="items" value="{{ number }}">
+                </td>
+                <td>{{ details['name'] }}</td>
+                <td>{{ details['price'] }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+        <br>
+        <button type="submit">Place Order</button>
+    </form>
+</body>
+</html>
